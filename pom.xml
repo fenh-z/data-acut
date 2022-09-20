@@ -8,10 +8,18 @@
         <module>data-acut-core</module>
         <module>data-acut-boot-starter</module>
     </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
+    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.3</version>
+        <version>2.3.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.xlab</groupId>
@@ -19,9 +27,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>data-acut-boot</name>
     <description>data-acut-boot</description>
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
+
     <dependencies>
 
         <dependency>
