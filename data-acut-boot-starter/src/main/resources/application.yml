@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: data-acut-boot-starter
+server:
+  port: 8080
