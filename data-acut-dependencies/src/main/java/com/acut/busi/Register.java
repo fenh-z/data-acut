@@ -23,6 +23,13 @@ public class Register {
 
     public List<Map<String, Procedure>> funcs = new ArrayList<>();
 
+    /**
+     * @description: 注册
+     * @author  zhangdx
+     * @date    2022/10/31 10:39
+     * @param
+     * @return  void
+    */
     @PostConstruct
     public void regist(){
         log.debug(" begin regist ");
